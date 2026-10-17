@@ -9,7 +9,7 @@ function studentDetails(name, age, cgpa) {
     console.log(name, age, cgpa);
 }
 studentDetails("Deepak", 21, 8.5);
-studentDetails("Priya", 22, 9);
+studentDetails("Dharshini", 22, 9);
 
 function calculateFee(fee) {
     return fee;
@@ -27,8 +27,8 @@ function studentForm(name, age, disability = "no") {
     console.log(name, age, disability);
 }
 studentForm("Deepak", 21, "no");
-studentForm("Priya", 22, "yes");
-studentForm("Arun", 20); // Arun 20 no
+studentForm("Dharshini", 22, "yes");
+studentForm("kira", 20); // kira 20 no
 
 // Part 2: Function Types and Scope (5 Questions)
 
@@ -128,8 +128,8 @@ for (let discount of discounts()) {
 
 function* students() {
     yield "Deepak";
-    yield "Priya";
-    yield "Arun";
+    yield "Dharshini";
+    yield "kira";
 }
 for (let name of students()) {
     console.log(name);
