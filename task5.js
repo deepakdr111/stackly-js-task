@@ -8,9 +8,9 @@ let numbers = [10, 20, 30, 40, 50, 60];
 numbers.pop();
 console.log(numbers); // [10, 20, 30, 40, 50]
 
-let names = ["Deepak", "Priya", "Arun", "Kavin", "Divya"];
+let names = ["Deepak", "Dharshu", "Kira", "Eren", "Mikasa"];
 names.shift();
-console.log(names); // ["Priya", "Arun", "Kavin", "Divya"]
+console.log(names); // ["Dharshu", "Kira", "Eren", "Mikasa"]
 
 let arr = [10, 20, 30, 40];
 arr.unshift(5, 15);
