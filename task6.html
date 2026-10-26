@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Score Tracker</title>
+</head>
+<body>
+
+    <h1>🎮 Game Score & Player Tracker</h1>
+    <p>Welcome to the Player Dashboard!</p>
+
+    <hr>
+
+    <h2>Player Details</h2>
+
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Player Name</th>
+                <th>Game</th>
+                <th>Score</th>
+                <th>Join Date</th>
+            </tr>
+        </thead>
+
+        <tbody id="playerTable"></tbody>
+    </table>
+
+    <hr>
+
+    <h2>🏆 Game Summary</h2>
+
+    <p>Total Players: <span id="totalPlayers">0</span></p>
+    <p>Total Score: <span id="totalScore">0</span></p>
+    <p>Highest Score: <span id="highestScore">0</span></p>
+    <p>Lowest Score: <span id="lowestScore">0</span></p>
+    <p>Winner: <span id="winner">-</span></p>
+
+    <hr>
+
+    <h2>📅 Current Date & Time</h2>
+    <p id="currentDate"></p>
+    <p id="currentTime"></p>
+
+    
+    <script src="task6.js"></script>
+
+</body>
+</html>
